@@ -1,1 +1,1 @@
-# lte-earfcn-calculator
+# [LTE EARFCN Calculator](https://github.com/qvil/lte-earfcn-calculator)
