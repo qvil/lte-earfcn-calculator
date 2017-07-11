@@ -1,10 +1,11 @@
 {
   "name": "lte-earfcn-calculator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js",
+    "test": "./node_modules/mocha/bin/mocha $(find . -name '*.spec.js') --recursive -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/qvil/lte-earfcn-calculator/issues"
   },
-  "homepage": "https://github.com/qvil/lte-earfcn-calculator#readme"
+  "homepage": "https://github.com/qvil/lte-earfcn-calculator#readme",
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0"
+  }
 }
