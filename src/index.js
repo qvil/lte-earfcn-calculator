@@ -18,8 +18,8 @@ let LTE = {
                         console.error('[Error] Wrong frequency value.');
                         return false;
                     }
-                    console.log(`[TS_LOG] earfcn : ${earfcn}`);
-                    return earfcn;
+                    
+                    return earfcn.toFixed(1);
                 }
             }
         }
@@ -40,7 +40,7 @@ let LTE = {
             return false;
         }
 
-        return freq;
+        return freq.toFixed(1);
     },
 };
 
