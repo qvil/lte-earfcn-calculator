@@ -141,16 +141,16 @@
     },
     {
         "band": 11,
-        "name": "AWS-1+",
+        "name": "1500 Lower1+",
         "bandType": "FDD",
         "DLOnly": false,
-        "FDL_Low": 2110,
-        "FDL_High": 2170,
-        "NDL_Min": 4150,
-        "NDL_Max": 4749,
-        "FUL_Low": 1710,
-        "FUL_High": 1770,
-        "NUL_Min": 22150,
-        "NUL_Max": 22749
+        "FDL_Low": 1475.9,
+        "FDL_High": 1495.9,
+        "NDL_Min": 4750,
+        "NDL_Max": 4949,
+        "FUL_Low": 1427.9,
+        "FUL_High": 1447.9,
+        "NUL_Min": 22750,
+        "NUL_Max": 22949
     }
 ]

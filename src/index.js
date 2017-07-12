@@ -1,28 +1,38 @@
-let table = require('../lteBandTable.json');
-let checkBandByFreq = require('./checkBandByFreq');
-let checkBandByEarfcn = require('./checkBandByEarfcn');
-let checkULDLByEarfcn = require('./checkULDLByEarfcn');
+const table = require('../lteBandTable.json');
+const checkBandByEarfcn = require('./checkBandByEarfcn');
 
 let LTE = {
-    freqToEarfcn: (freq) => {
-        // let band = checkBandByFreq();
-        // console.log(`[TS_LOG] band : ${band}`);
-        // return earfcn;
-        console.log("Currently not support. It'll be return false.");
-        return false;
+    freqToEarfcn: (band, freq) => {
+        for (let key in table) {
+            if (table.hasOwnProperty(key)) {
+                let element = table[key];
+                let earfcn;
+                if ( band == element.band ) {
+                    if ( freq >= element.FDL_Low && freq <= element.FDL_High ) {
+                        earfcn = (freq - element.FDL_Low) * 10 + element.NDL_Min;
+                    }
+                    else if ( freq >= element.FUL_Low && freq <= element.FUL_High ) {
+                        earfcn = (freq - element.FUL_Low) * 10 + element.NUL_Min;
+                    }
+                    else {
+                        console.error('[Error] Wrong frequency value.');
+                        return false;
+                    }
+                    console.log(`[TS_LOG] earfcn : ${earfcn}`);
+                    return earfcn;
+                }
+            }
+        }
     },
     earfcnToFreq: (earfcn) => {
-        let band = checkBandByEarfcn(earfcn);
-        let link = checkULDLByEarfcn(earfcn);
-        console.log(`[TS_LOG] link : ${link}`);
-        // let freq = { DL: '', UL: '' }; // MHz
+        let data = checkBandByEarfcn(earfcn);
         let freq = ''; // MHz
-        let index = band - 1;
+        let index = data.band - 1;
 
-        if ( link === "DL" ) {
+        if ( data.link === "DL" ) {
             freq = table[index].FDL_Low + 0.1 * (earfcn - table[index].NDL_Min);
         }
-        else if ( link === "UL" ) {
+        else if ( data.link === "UL" ) {
             freq = table[index].bandType !== 'TDD' ? table[index].FUL_Low + 0.1 * (earfcn - table[index].NUL_Min) : undefined;
         }
         else {
@@ -30,8 +40,6 @@ let LTE = {
             return false;
         }
 
-        console.log(`[TS_LOG] band : ${band}`);
-        
         return freq;
     },
 };
