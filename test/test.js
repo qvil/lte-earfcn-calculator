@@ -2,6 +2,7 @@ const assert = require('assert');
 const LTE = require('../src');
 const checkBandByEarfcn = require('../src/checkBandByEarfcn');
 const table = require('../lteBandTable.json');
+const testCase = require('./testCase.json');
 
 describe('Check Band', () => {
     describe('#By EARFCN', () => {
@@ -58,27 +59,9 @@ describe('Check EARFCN', () => {
 describe('Check Freq.', () => {
     describe('#By EARFCN', () => {
         it('Should return DL Freq.', () => {
-            for (let key in table) {
-                if (table.hasOwnProperty(key)) {
-                    let element = table[key];
-                    for (var earfcn = element["NDL_Min"]; earfcn < element["NDL_Max"]; earfcn++) {
-                        // let freq = LTE.earfcnToFreq(earfcn);
-                        let freq = element.FDL_Low + 0.1 * (earfcn - element.NDL_Min);
-                        assert.equal(freq.toFixed(1), LTE.earfcnToFreq(earfcn));
-                    }
-                }
-            }
+            testCase.map((value, index, array) => {
+                assert.equal(value.outputFreq, LTE.earfcnToFreq(value.inputEarfcn));
+            });
         });
-        // it('Should return UL Freq.', () => {
-        //     for (let key in table) {
-        //         if (table.hasOwnProperty(key)) {
-        //             let element = table[key];
-        //             for (var freq = element["FUL_Low"]; freq < element["FUL_High"]; freq = freq + 0.1) {
-        //                 earfcn = (freq - element.FUL_Low) * 10 + element.NUL_Min;
-        //                 assert.equal(earfcn.toFixed(1), LTE.freqToEarfcn(element.band, freq));
-        //             }
-        //         }
-        //     }
-        // });
     });
 });

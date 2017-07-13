@@ -1,0 +1,1202 @@
+[
+  {
+    "inputEarfcn": 0,
+    "outputFreq": 2110
+  },
+  {
+    "inputEarfcn": 1,
+    "outputFreq": "2110.1"
+  },
+  {
+    "inputEarfcn": 2,
+    "outputFreq": "2110.2"
+  },
+  {
+    "inputEarfcn": 3,
+    "outputFreq": "2110.3"
+  },
+  {
+    "inputEarfcn": 4,
+    "outputFreq": "2110.4"
+  },
+  {
+    "inputEarfcn": 5,
+    "outputFreq": "2110.5"
+  },
+  {
+    "inputEarfcn": 6,
+    "outputFreq": "2110.6"
+  },
+  {
+    "inputEarfcn": 7,
+    "outputFreq": "2110.7"
+  },
+  {
+    "inputEarfcn": 8,
+    "outputFreq": "2110.8"
+  },
+  {
+    "inputEarfcn": 9,
+    "outputFreq": "2110.9"
+  },
+  {
+    "inputEarfcn": 10,
+    "outputFreq": 2111
+  },
+  {
+    "inputEarfcn": 11,
+    "outputFreq": "2111.1"
+  },
+  {
+    "inputEarfcn": 12,
+    "outputFreq": "2111.2"
+  },
+  {
+    "inputEarfcn": 13,
+    "outputFreq": "2111.3"
+  },
+  {
+    "inputEarfcn": 14,
+    "outputFreq": "2111.4"
+  },
+  {
+    "inputEarfcn": 15,
+    "outputFreq": "2111.5"
+  },
+  {
+    "inputEarfcn": 16,
+    "outputFreq": "2111.6"
+  },
+  {
+    "inputEarfcn": 17,
+    "outputFreq": "2111.7"
+  },
+  {
+    "inputEarfcn": 18,
+    "outputFreq": "2111.8"
+  },
+  {
+    "inputEarfcn": 19,
+    "outputFreq": "2111.9"
+  },
+  {
+    "inputEarfcn": 20,
+    "outputFreq": 2112
+  },
+  {
+    "inputEarfcn": 21,
+    "outputFreq": "2112.1"
+  },
+  {
+    "inputEarfcn": 22,
+    "outputFreq": "2112.2"
+  },
+  {
+    "inputEarfcn": 23,
+    "outputFreq": "2112.3"
+  },
+  {
+    "inputEarfcn": 24,
+    "outputFreq": "2112.4"
+  },
+  {
+    "inputEarfcn": 25,
+    "outputFreq": "2112.5"
+  },
+  {
+    "inputEarfcn": 26,
+    "outputFreq": "2112.6"
+  },
+  {
+    "inputEarfcn": 27,
+    "outputFreq": "2112.7"
+  },
+  {
+    "inputEarfcn": 28,
+    "outputFreq": "2112.8"
+  },
+  {
+    "inputEarfcn": 29,
+    "outputFreq": "2112.9"
+  },
+  {
+    "inputEarfcn": 30,
+    "outputFreq": 2113
+  },
+  {
+    "inputEarfcn": 31,
+    "outputFreq": "2113.1"
+  },
+  {
+    "inputEarfcn": 32,
+    "outputFreq": "2113.2"
+  },
+  {
+    "inputEarfcn": 33,
+    "outputFreq": "2113.3"
+  },
+  {
+    "inputEarfcn": 34,
+    "outputFreq": "2113.4"
+  },
+  {
+    "inputEarfcn": 35,
+    "outputFreq": "2113.5"
+  },
+  {
+    "inputEarfcn": 36,
+    "outputFreq": "2113.6"
+  },
+  {
+    "inputEarfcn": 37,
+    "outputFreq": "2113.7"
+  },
+  {
+    "inputEarfcn": 38,
+    "outputFreq": "2113.8"
+  },
+  {
+    "inputEarfcn": 39,
+    "outputFreq": "2113.9"
+  },
+  {
+    "inputEarfcn": 40,
+    "outputFreq": 2114
+  },
+  {
+    "inputEarfcn": 41,
+    "outputFreq": "2114.1"
+  },
+  {
+    "inputEarfcn": 42,
+    "outputFreq": "2114.2"
+  },
+  {
+    "inputEarfcn": 43,
+    "outputFreq": "2114.3"
+  },
+  {
+    "inputEarfcn": 44,
+    "outputFreq": "2114.4"
+  },
+  {
+    "inputEarfcn": 45,
+    "outputFreq": "2114.5"
+  },
+  {
+    "inputEarfcn": 46,
+    "outputFreq": "2114.6"
+  },
+  {
+    "inputEarfcn": 47,
+    "outputFreq": "2114.7"
+  },
+  {
+    "inputEarfcn": 48,
+    "outputFreq": "2114.8"
+  },
+  {
+    "inputEarfcn": 49,
+    "outputFreq": "2114.9"
+  },
+  {
+    "inputEarfcn": 50,
+    "outputFreq": 2115
+  },
+  {
+    "inputEarfcn": 51,
+    "outputFreq": "2115.1"
+  },
+  {
+    "inputEarfcn": 52,
+    "outputFreq": "2115.2"
+  },
+  {
+    "inputEarfcn": 53,
+    "outputFreq": "2115.3"
+  },
+  {
+    "inputEarfcn": 54,
+    "outputFreq": "2115.4"
+  },
+  {
+    "inputEarfcn": 55,
+    "outputFreq": "2115.5"
+  },
+  {
+    "inputEarfcn": 56,
+    "outputFreq": "2115.6"
+  },
+  {
+    "inputEarfcn": 57,
+    "outputFreq": "2115.7"
+  },
+  {
+    "inputEarfcn": 58,
+    "outputFreq": "2115.8"
+  },
+  {
+    "inputEarfcn": 59,
+    "outputFreq": "2115.9"
+  },
+  {
+    "inputEarfcn": 60,
+    "outputFreq": 2116
+  },
+  {
+    "inputEarfcn": 61,
+    "outputFreq": "2116.1"
+  },
+  {
+    "inputEarfcn": 62,
+    "outputFreq": "2116.2"
+  },
+  {
+    "inputEarfcn": 63,
+    "outputFreq": "2116.3"
+  },
+  {
+    "inputEarfcn": 64,
+    "outputFreq": "2116.4"
+  },
+  {
+    "inputEarfcn": 65,
+    "outputFreq": "2116.5"
+  },
+  {
+    "inputEarfcn": 66,
+    "outputFreq": "2116.6"
+  },
+  {
+    "inputEarfcn": 67,
+    "outputFreq": "2116.7"
+  },
+  {
+    "inputEarfcn": 68,
+    "outputFreq": "2116.8"
+  },
+  {
+    "inputEarfcn": 69,
+    "outputFreq": "2116.9"
+  },
+  {
+    "inputEarfcn": 70,
+    "outputFreq": 2117
+  },
+  {
+    "inputEarfcn": 71,
+    "outputFreq": "2117.1"
+  },
+  {
+    "inputEarfcn": 72,
+    "outputFreq": "2117.2"
+  },
+  {
+    "inputEarfcn": 73,
+    "outputFreq": "2117.3"
+  },
+  {
+    "inputEarfcn": 74,
+    "outputFreq": "2117.4"
+  },
+  {
+    "inputEarfcn": 75,
+    "outputFreq": "2117.5"
+  },
+  {
+    "inputEarfcn": 76,
+    "outputFreq": "2117.6"
+  },
+  {
+    "inputEarfcn": 77,
+    "outputFreq": "2117.7"
+  },
+  {
+    "inputEarfcn": 78,
+    "outputFreq": "2117.8"
+  },
+  {
+    "inputEarfcn": 79,
+    "outputFreq": "2117.9"
+  },
+  {
+    "inputEarfcn": 80,
+    "outputFreq": 2118
+  },
+  {
+    "inputEarfcn": 81,
+    "outputFreq": "2118.1"
+  },
+  {
+    "inputEarfcn": 82,
+    "outputFreq": "2118.2"
+  },
+  {
+    "inputEarfcn": 83,
+    "outputFreq": "2118.3"
+  },
+  {
+    "inputEarfcn": 84,
+    "outputFreq": "2118.4"
+  },
+  {
+    "inputEarfcn": 85,
+    "outputFreq": "2118.5"
+  },
+  {
+    "inputEarfcn": 86,
+    "outputFreq": "2118.6"
+  },
+  {
+    "inputEarfcn": 87,
+    "outputFreq": "2118.7"
+  },
+  {
+    "inputEarfcn": 88,
+    "outputFreq": "2118.8"
+  },
+  {
+    "inputEarfcn": 89,
+    "outputFreq": "2118.9"
+  },
+  {
+    "inputEarfcn": 90,
+    "outputFreq": 2119
+  },
+  {
+    "inputEarfcn": 91,
+    "outputFreq": "2119.1"
+  },
+  {
+    "inputEarfcn": 92,
+    "outputFreq": "2119.2"
+  },
+  {
+    "inputEarfcn": 93,
+    "outputFreq": "2119.3"
+  },
+  {
+    "inputEarfcn": 94,
+    "outputFreq": "2119.4"
+  },
+  {
+    "inputEarfcn": 95,
+    "outputFreq": "2119.5"
+  },
+  {
+    "inputEarfcn": 96,
+    "outputFreq": "2119.6"
+  },
+  {
+    "inputEarfcn": 97,
+    "outputFreq": "2119.7"
+  },
+  {
+    "inputEarfcn": 98,
+    "outputFreq": "2119.8"
+  },
+  {
+    "inputEarfcn": 99,
+    "outputFreq": "2119.9"
+  },
+  {
+    "inputEarfcn": 18600,
+    "outputFreq": 1850
+  },
+  {
+    "inputEarfcn": 18601,
+    "outputFreq": "1850.1"
+  },
+  {
+    "inputEarfcn": 18602,
+    "outputFreq": "1850.2"
+  },
+  {
+    "inputEarfcn": 18603,
+    "outputFreq": "1850.3"
+  },
+  {
+    "inputEarfcn": 18604,
+    "outputFreq": "1850.4"
+  },
+  {
+    "inputEarfcn": 18605,
+    "outputFreq": "1850.5"
+  },
+  {
+    "inputEarfcn": 18606,
+    "outputFreq": "1850.6"
+  },
+  {
+    "inputEarfcn": 18607,
+    "outputFreq": "1850.7"
+  },
+  {
+    "inputEarfcn": 18608,
+    "outputFreq": "1850.8"
+  },
+  {
+    "inputEarfcn": 18609,
+    "outputFreq": "1850.9"
+  },
+  {
+    "inputEarfcn": 18610,
+    "outputFreq": 1851
+  },
+  {
+    "inputEarfcn": 18611,
+    "outputFreq": "1851.1"
+  },
+  {
+    "inputEarfcn": 18612,
+    "outputFreq": "1851.2"
+  },
+  {
+    "inputEarfcn": 18613,
+    "outputFreq": "1851.3"
+  },
+  {
+    "inputEarfcn": 18614,
+    "outputFreq": "1851.4"
+  },
+  {
+    "inputEarfcn": 18615,
+    "outputFreq": "1851.5"
+  },
+  {
+    "inputEarfcn": 18616,
+    "outputFreq": "1851.6"
+  },
+  {
+    "inputEarfcn": 18617,
+    "outputFreq": "1851.7"
+  },
+  {
+    "inputEarfcn": 18618,
+    "outputFreq": "1851.8"
+  },
+  {
+    "inputEarfcn": 18619,
+    "outputFreq": "1851.9"
+  },
+  {
+    "inputEarfcn": 18620,
+    "outputFreq": 1852
+  },
+  {
+    "inputEarfcn": 18621,
+    "outputFreq": "1852.1"
+  },
+  {
+    "inputEarfcn": 18622,
+    "outputFreq": "1852.2"
+  },
+  {
+    "inputEarfcn": 18623,
+    "outputFreq": "1852.3"
+  },
+  {
+    "inputEarfcn": 18624,
+    "outputFreq": "1852.4"
+  },
+  {
+    "inputEarfcn": 18625,
+    "outputFreq": "1852.5"
+  },
+  {
+    "inputEarfcn": 18626,
+    "outputFreq": "1852.6"
+  },
+  {
+    "inputEarfcn": 18627,
+    "outputFreq": "1852.7"
+  },
+  {
+    "inputEarfcn": 18628,
+    "outputFreq": "1852.8"
+  },
+  {
+    "inputEarfcn": 18629,
+    "outputFreq": "1852.9"
+  },
+  {
+    "inputEarfcn": 18630,
+    "outputFreq": 1853
+  },
+  {
+    "inputEarfcn": 18631,
+    "outputFreq": "1853.1"
+  },
+  {
+    "inputEarfcn": 18632,
+    "outputFreq": "1853.2"
+  },
+  {
+    "inputEarfcn": 18633,
+    "outputFreq": "1853.3"
+  },
+  {
+    "inputEarfcn": 18634,
+    "outputFreq": "1853.4"
+  },
+  {
+    "inputEarfcn": 18635,
+    "outputFreq": "1853.5"
+  },
+  {
+    "inputEarfcn": 18636,
+    "outputFreq": "1853.6"
+  },
+  {
+    "inputEarfcn": 18637,
+    "outputFreq": "1853.7"
+  },
+  {
+    "inputEarfcn": 18638,
+    "outputFreq": "1853.8"
+  },
+  {
+    "inputEarfcn": 18639,
+    "outputFreq": "1853.9"
+  },
+  {
+    "inputEarfcn": 18640,
+    "outputFreq": 1854
+  },
+  {
+    "inputEarfcn": 18641,
+    "outputFreq": "1854.1"
+  },
+  {
+    "inputEarfcn": 18642,
+    "outputFreq": "1854.2"
+  },
+  {
+    "inputEarfcn": 18643,
+    "outputFreq": "1854.3"
+  },
+  {
+    "inputEarfcn": 18644,
+    "outputFreq": "1854.4"
+  },
+  {
+    "inputEarfcn": 18645,
+    "outputFreq": "1854.5"
+  },
+  {
+    "inputEarfcn": 18646,
+    "outputFreq": "1854.6"
+  },
+  {
+    "inputEarfcn": 18647,
+    "outputFreq": "1854.7"
+  },
+  {
+    "inputEarfcn": 18648,
+    "outputFreq": "1854.8"
+  },
+  {
+    "inputEarfcn": 18649,
+    "outputFreq": "1854.9"
+  },
+  {
+    "inputEarfcn": 18650,
+    "outputFreq": 1855
+  },
+  {
+    "inputEarfcn": 18651,
+    "outputFreq": "1855.1"
+  },
+  {
+    "inputEarfcn": 18652,
+    "outputFreq": "1855.2"
+  },
+  {
+    "inputEarfcn": 18653,
+    "outputFreq": "1855.3"
+  },
+  {
+    "inputEarfcn": 18654,
+    "outputFreq": "1855.4"
+  },
+  {
+    "inputEarfcn": 18655,
+    "outputFreq": "1855.5"
+  },
+  {
+    "inputEarfcn": 18656,
+    "outputFreq": "1855.6"
+  },
+  {
+    "inputEarfcn": 18657,
+    "outputFreq": "1855.7"
+  },
+  {
+    "inputEarfcn": 18658,
+    "outputFreq": "1855.8"
+  },
+  {
+    "inputEarfcn": 18659,
+    "outputFreq": "1855.9"
+  },
+  {
+    "inputEarfcn": 18660,
+    "outputFreq": 1856
+  },
+  {
+    "inputEarfcn": 18661,
+    "outputFreq": "1856.1"
+  },
+  {
+    "inputEarfcn": 18662,
+    "outputFreq": "1856.2"
+  },
+  {
+    "inputEarfcn": 18663,
+    "outputFreq": "1856.3"
+  },
+  {
+    "inputEarfcn": 18664,
+    "outputFreq": "1856.4"
+  },
+  {
+    "inputEarfcn": 18665,
+    "outputFreq": "1856.5"
+  },
+  {
+    "inputEarfcn": 18666,
+    "outputFreq": "1856.6"
+  },
+  {
+    "inputEarfcn": 18667,
+    "outputFreq": "1856.7"
+  },
+  {
+    "inputEarfcn": 18668,
+    "outputFreq": "1856.8"
+  },
+  {
+    "inputEarfcn": 18669,
+    "outputFreq": "1856.9"
+  },
+  {
+    "inputEarfcn": 18670,
+    "outputFreq": 1857
+  },
+  {
+    "inputEarfcn": 18671,
+    "outputFreq": "1857.1"
+  },
+  {
+    "inputEarfcn": 18672,
+    "outputFreq": "1857.2"
+  },
+  {
+    "inputEarfcn": 18673,
+    "outputFreq": "1857.3"
+  },
+  {
+    "inputEarfcn": 18674,
+    "outputFreq": "1857.4"
+  },
+  {
+    "inputEarfcn": 18675,
+    "outputFreq": "1857.5"
+  },
+  {
+    "inputEarfcn": 18676,
+    "outputFreq": "1857.6"
+  },
+  {
+    "inputEarfcn": 18677,
+    "outputFreq": "1857.7"
+  },
+  {
+    "inputEarfcn": 18678,
+    "outputFreq": "1857.8"
+  },
+  {
+    "inputEarfcn": 18679,
+    "outputFreq": "1857.9"
+  },
+  {
+    "inputEarfcn": 18680,
+    "outputFreq": 1858
+  },
+  {
+    "inputEarfcn": 18681,
+    "outputFreq": "1858.1"
+  },
+  {
+    "inputEarfcn": 18682,
+    "outputFreq": "1858.2"
+  },
+  {
+    "inputEarfcn": 18683,
+    "outputFreq": "1858.3"
+  },
+  {
+    "inputEarfcn": 18684,
+    "outputFreq": "1858.4"
+  },
+  {
+    "inputEarfcn": 18685,
+    "outputFreq": "1858.5"
+  },
+  {
+    "inputEarfcn": 18686,
+    "outputFreq": "1858.6"
+  },
+  {
+    "inputEarfcn": 18687,
+    "outputFreq": "1858.7"
+  },
+  {
+    "inputEarfcn": 18688,
+    "outputFreq": "1858.8"
+  },
+  {
+    "inputEarfcn": 18689,
+    "outputFreq": "1858.9"
+  },
+  {
+    "inputEarfcn": 18690,
+    "outputFreq": 1859
+  },
+  {
+    "inputEarfcn": 18691,
+    "outputFreq": "1859.1"
+  },
+  {
+    "inputEarfcn": 18692,
+    "outputFreq": "1859.2"
+  },
+  {
+    "inputEarfcn": 18693,
+    "outputFreq": "1859.3"
+  },
+  {
+    "inputEarfcn": 18694,
+    "outputFreq": "1859.4"
+  },
+  {
+    "inputEarfcn": 18695,
+    "outputFreq": "1859.5"
+  },
+  {
+    "inputEarfcn": 18696,
+    "outputFreq": "1859.6"
+  },
+  {
+    "inputEarfcn": 18697,
+    "outputFreq": "1859.7"
+  },
+  {
+    "inputEarfcn": 18698,
+    "outputFreq": "1859.8"
+  },
+  {
+    "inputEarfcn": 18699,
+    "outputFreq": "1859.9"
+  },
+  {
+    "inputEarfcn": 9660,
+    "outputFreq": 717
+  },
+  {
+    "inputEarfcn": 9661,
+    "outputFreq": "717.1"
+  },
+  {
+    "inputEarfcn": 9662,
+    "outputFreq": "717.2"
+  },
+  {
+    "inputEarfcn": 9663,
+    "outputFreq": "717.3"
+  },
+  {
+    "inputEarfcn": 9664,
+    "outputFreq": "717.4"
+  },
+  {
+    "inputEarfcn": 9665,
+    "outputFreq": "717.5"
+  },
+  {
+    "inputEarfcn": 9666,
+    "outputFreq": "717.6"
+  },
+  {
+    "inputEarfcn": 9667,
+    "outputFreq": "717.7"
+  },
+  {
+    "inputEarfcn": 9668,
+    "outputFreq": "717.8"
+  },
+  {
+    "inputEarfcn": 9669,
+    "outputFreq": "717.9"
+  },
+  {
+    "inputEarfcn": 9670,
+    "outputFreq": 718
+  },
+  {
+    "inputEarfcn": 9671,
+    "outputFreq": "718.1"
+  },
+  {
+    "inputEarfcn": 9672,
+    "outputFreq": "718.2"
+  },
+  {
+    "inputEarfcn": 9673,
+    "outputFreq": "718.3"
+  },
+  {
+    "inputEarfcn": 9674,
+    "outputFreq": "718.4"
+  },
+  {
+    "inputEarfcn": 9675,
+    "outputFreq": "718.5"
+  },
+  {
+    "inputEarfcn": 9676,
+    "outputFreq": "718.6"
+  },
+  {
+    "inputEarfcn": 9677,
+    "outputFreq": "718.7"
+  },
+  {
+    "inputEarfcn": 9678,
+    "outputFreq": "718.8"
+  },
+  {
+    "inputEarfcn": 9679,
+    "outputFreq": "718.9"
+  },
+  {
+    "inputEarfcn": 9680,
+    "outputFreq": 719
+  },
+  {
+    "inputEarfcn": 9681,
+    "outputFreq": "719.1"
+  },
+  {
+    "inputEarfcn": 9682,
+    "outputFreq": "719.2"
+  },
+  {
+    "inputEarfcn": 9683,
+    "outputFreq": "719.3"
+  },
+  {
+    "inputEarfcn": 9684,
+    "outputFreq": "719.4"
+  },
+  {
+    "inputEarfcn": 9685,
+    "outputFreq": "719.5"
+  },
+  {
+    "inputEarfcn": 9686,
+    "outputFreq": "719.6"
+  },
+  {
+    "inputEarfcn": 9687,
+    "outputFreq": "719.7"
+  },
+  {
+    "inputEarfcn": 9688,
+    "outputFreq": "719.8"
+  },
+  {
+    "inputEarfcn": 9689,
+    "outputFreq": "719.9"
+  },
+  {
+    "inputEarfcn": 9690,
+    "outputFreq": 720
+  },
+  {
+    "inputEarfcn": 9691,
+    "outputFreq": "720.1"
+  },
+  {
+    "inputEarfcn": 9692,
+    "outputFreq": "720.2"
+  },
+  {
+    "inputEarfcn": 9693,
+    "outputFreq": "720.3"
+  },
+  {
+    "inputEarfcn": 9694,
+    "outputFreq": "720.4"
+  },
+  {
+    "inputEarfcn": 9695,
+    "outputFreq": "720.5"
+  },
+  {
+    "inputEarfcn": 9696,
+    "outputFreq": "720.6"
+  },
+  {
+    "inputEarfcn": 9697,
+    "outputFreq": "720.7"
+  },
+  {
+    "inputEarfcn": 9698,
+    "outputFreq": "720.8"
+  },
+  {
+    "inputEarfcn": 9699,
+    "outputFreq": "720.9"
+  },
+  {
+    "inputEarfcn": 9700,
+    "outputFreq": 721
+  },
+  {
+    "inputEarfcn": 9701,
+    "outputFreq": "721.1"
+  },
+  {
+    "inputEarfcn": 9702,
+    "outputFreq": "721.2"
+  },
+  {
+    "inputEarfcn": 9703,
+    "outputFreq": "721.3"
+  },
+  {
+    "inputEarfcn": 9704,
+    "outputFreq": "721.4"
+  },
+  {
+    "inputEarfcn": 9705,
+    "outputFreq": "721.5"
+  },
+  {
+    "inputEarfcn": 9706,
+    "outputFreq": "721.6"
+  },
+  {
+    "inputEarfcn": 9707,
+    "outputFreq": "721.7"
+  },
+  {
+    "inputEarfcn": 9708,
+    "outputFreq": "721.8"
+  },
+  {
+    "inputEarfcn": 9709,
+    "outputFreq": "721.9"
+  },
+  {
+    "inputEarfcn": 9710,
+    "outputFreq": 722
+  },
+  {
+    "inputEarfcn": 9711,
+    "outputFreq": "722.1"
+  },
+  {
+    "inputEarfcn": 9712,
+    "outputFreq": "722.2"
+  },
+  {
+    "inputEarfcn": 9713,
+    "outputFreq": "722.3"
+  },
+  {
+    "inputEarfcn": 9714,
+    "outputFreq": "722.4"
+  },
+  {
+    "inputEarfcn": 9715,
+    "outputFreq": "722.5"
+  },
+  {
+    "inputEarfcn": 9716,
+    "outputFreq": "722.6"
+  },
+  {
+    "inputEarfcn": 9717,
+    "outputFreq": "722.7"
+  },
+  {
+    "inputEarfcn": 9718,
+    "outputFreq": "722.8"
+  },
+  {
+    "inputEarfcn": 9719,
+    "outputFreq": "722.9"
+  },
+  {
+    "inputEarfcn": 9720,
+    "outputFreq": 723
+  },
+  {
+    "inputEarfcn": 9721,
+    "outputFreq": "723.1"
+  },
+  {
+    "inputEarfcn": 9722,
+    "outputFreq": "723.2"
+  },
+  {
+    "inputEarfcn": 9723,
+    "outputFreq": "723.3"
+  },
+  {
+    "inputEarfcn": 9724,
+    "outputFreq": "723.4"
+  },
+  {
+    "inputEarfcn": 9725,
+    "outputFreq": "723.5"
+  },
+  {
+    "inputEarfcn": 9726,
+    "outputFreq": "723.6"
+  },
+  {
+    "inputEarfcn": 9727,
+    "outputFreq": "723.7"
+  },
+  {
+    "inputEarfcn": 9728,
+    "outputFreq": "723.8"
+  },
+  {
+    "inputEarfcn": 9729,
+    "outputFreq": "723.9"
+  },
+  {
+    "inputEarfcn": 9730,
+    "outputFreq": 724
+  },
+  {
+    "inputEarfcn": 9731,
+    "outputFreq": "724.1"
+  },
+  {
+    "inputEarfcn": 9732,
+    "outputFreq": "724.2"
+  },
+  {
+    "inputEarfcn": 9733,
+    "outputFreq": "724.3"
+  },
+  {
+    "inputEarfcn": 9734,
+    "outputFreq": "724.4"
+  },
+  {
+    "inputEarfcn": 9735,
+    "outputFreq": "724.5"
+  },
+  {
+    "inputEarfcn": 9736,
+    "outputFreq": "724.6"
+  },
+  {
+    "inputEarfcn": 9737,
+    "outputFreq": "724.7"
+  },
+  {
+    "inputEarfcn": 9738,
+    "outputFreq": "724.8"
+  },
+  {
+    "inputEarfcn": 9739,
+    "outputFreq": "724.9"
+  },
+  {
+    "inputEarfcn": 9740,
+    "outputFreq": 725
+  },
+  {
+    "inputEarfcn": 9741,
+    "outputFreq": "725.1"
+  },
+  {
+    "inputEarfcn": 9742,
+    "outputFreq": "725.2"
+  },
+  {
+    "inputEarfcn": 9743,
+    "outputFreq": "725.3"
+  },
+  {
+    "inputEarfcn": 9744,
+    "outputFreq": "725.4"
+  },
+  {
+    "inputEarfcn": 9745,
+    "outputFreq": "725.5"
+  },
+  {
+    "inputEarfcn": 9746,
+    "outputFreq": "725.6"
+  },
+  {
+    "inputEarfcn": 9747,
+    "outputFreq": "725.7"
+  },
+  {
+    "inputEarfcn": 9748,
+    "outputFreq": "725.8"
+  },
+  {
+    "inputEarfcn": 9749,
+    "outputFreq": "725.9"
+  },
+  {
+    "inputEarfcn": 9750,
+    "outputFreq": 726
+  },
+  {
+    "inputEarfcn": 9751,
+    "outputFreq": "726.1"
+  },
+  {
+    "inputEarfcn": 9752,
+    "outputFreq": "726.2"
+  },
+  {
+    "inputEarfcn": 9753,
+    "outputFreq": "726.3"
+  },
+  {
+    "inputEarfcn": 9754,
+    "outputFreq": "726.4"
+  },
+  {
+    "inputEarfcn": 9755,
+    "outputFreq": "726.5"
+  },
+  {
+    "inputEarfcn": 9756,
+    "outputFreq": "726.6"
+  },
+  {
+    "inputEarfcn": 9757,
+    "outputFreq": "726.7"
+  },
+  {
+    "inputEarfcn": 9758,
+    "outputFreq": "726.8"
+  },
+  {
+    "inputEarfcn": 9759,
+    "outputFreq": "726.9"
+  }
+]
