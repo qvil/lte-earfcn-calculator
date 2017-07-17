@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './index.js',
     output: {
         filename: 'lte-earfcn-calculator.min.js',
         path: path.resolve(__dirname, 'dist')
