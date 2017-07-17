@@ -1,7 +1,7 @@
 const table = require('../lteBandTable.json');
 const checkBandByEarfcn = require('./checkBandByEarfcn');
 
-let LTE = {
+let LteEarfcnCalculator = {
     freqToEarfcn: (band, freq) => {
         for (let key in table) {
             if (table.hasOwnProperty(key)) {
@@ -96,4 +96,4 @@ let LTE = {
     },
 };
 
-module.exports = LTE;
+module.exports = LteEarfcnCalculator;
