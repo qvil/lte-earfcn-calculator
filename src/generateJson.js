@@ -29,13 +29,11 @@ let array = [];
 // console.log(array);
 
 var args = process.argv.slice(2);
-console.log(`[TS_LOG] args : ${args}`);
 
 let mode = args[0];
 let start = parseInt(args[1]);
 let end = parseInt(args[2]);
 let step = parseFloat(args[3]);
-console.log(`[TS_LOG] step : ${step}`);
 
 // for (let i = start; i < end; i++) {
 for (let i = start; i < end; i += step) {
