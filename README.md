@@ -1,6 +1,6 @@
 **Note**
 
-Check out! Added [Example Demo Web](#Web)!
+Check out! Added [Example Demo Web](#web)!
 >`Frequency to EARFCN` Function is coming!
 
 # [LTE EARFCN Calculator](https://github.com/qvil/lte-earfcn-calculator)
