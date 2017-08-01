@@ -1,3 +1,5 @@
+This is LTE EARFCN Calculator. The main purpose is to convert EARFCN to Frequency or vice versa to calculate EARFCN using frequency and band.
+
 **Note**
 
 Check out! Added [Example Demo Web](#web)!
