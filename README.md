@@ -1,5 +1,3 @@
-This is LTE EARFCN Calculator. The main purpose is to convert EARFCN to Frequency or vice versa to calculate EARFCN using frequency and band.
-
 **Note**
 
 Check out! Added [Example Demo Web](#web)!
@@ -9,6 +7,7 @@ Check out! Added [Example Demo Web](#web)!
 [![npm version](https://badge.fury.io/js/lte-earfcn-calculator.svg)](https://badge.fury.io/js/lte-earfcn-calculator)
 [![Build Status](https://travis-ci.org/qvil/lte-earfcn-calculator.svg?branch=master)](https://travis-ci.org/qvil/lte-earfcn-calculator)
 [![Coverage Status](https://coveralls.io/repos/github/qvil/lte-earfcn-calculator/badge.svg?branch=master)](https://coveralls.io/github/qvil/lte-earfcn-calculator?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 This is LTE EARFCN Calculator. The main purpose is to convert EARFCN to Frequency or vice versa to calculate EARFCN using frequency and band.
@@ -42,20 +41,12 @@ console.log(LteEarfcnCalculator.earfcnToFreq(0)); // 2110.0
 
 ## Install
 ```
-yarn add lte-earfcn-calculator
-```
-or
-```
 npm install lte-earfcn-calculator
 ```
 
 ## Test
 This project support unit test using [mocha](https://mochajs.org)
 
-```
-yarn test
-```
-or
 ```
 npm test
 ```
