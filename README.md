@@ -6,6 +6,9 @@ Check out! Added [Example Demo Web](#web)!
 >`Frequency to EARFCN` Function is coming!
 
 # [LTE EARFCN Calculator](https://github.com/qvil/lte-earfcn-calculator)
+[![npm version](https://badge.fury.io/js/lte-earfcn-calculator.svg)](https://badge.fury.io/js/lte-earfcn-calculator)
+[![Build Status](https://travis-ci.org/qvil/lte-earfcn-calculator.svg?branch=master)](https://travis-ci.org/qvil/lte-earfcn-calculator)
+[![Coverage Status](https://coveralls.io/repos/github/qvil/lte-earfcn-calculator/badge.svg?branch=master)](https://coveralls.io/github/qvil/lte-earfcn-calculator?branch=master)
 
 ## Overview
 This is LTE EARFCN Calculator. The main purpose is to convert EARFCN to Frequency or vice versa to calculate EARFCN using frequency and band.

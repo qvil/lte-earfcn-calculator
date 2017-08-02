@@ -6,6 +6,9 @@ LTE EARFCN 계산기 입니다. EARFCN을 주파수로 변환하거나 반대로
 >`Frequency to EARFCN` 기능이 추가될 예정입니다!
 
 # [LTE EARFCN Calculator](https://github.com/qvil/lte-earfcn-calculator)
+[![npm version](https://badge.fury.io/js/lte-earfcn-calculator.svg)](https://badge.fury.io/js/lte-earfcn-calculator)
+[![Build Status](https://travis-ci.org/qvil/lte-earfcn-calculator.svg?branch=master)](https://travis-ci.org/qvil/lte-earfcn-calculator)
+[![Coverage Status](https://coveralls.io/repos/github/qvil/lte-earfcn-calculator/badge.svg?branch=master)](https://coveralls.io/github/qvil/lte-earfcn-calculator?branch=master)
 
 ## 개요
 LTE EARFCN 계산기 입니다. EARFCN을 주파수로 변환하거나 반대로 주파수와 밴드를 이용하여 EARFCN을 계산하는 기능이 주 목적입니다.
