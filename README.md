@@ -1,5 +1,6 @@
-Check out! Added [Example Demo Web](#web)!
->`Frequency to EARFCN` Function is coming!
+Javascript library that for convert EARFCN and Frequency. 
+>- Check out! Added [Demo](#demo)!
+>- `Frequency to EARFCN` Function is coming!
 
 # [LTE EARFCN Calculator](https://github.com/qvil/lte-earfcn-calculator)
 [![npm version](https://badge.fury.io/js/lte-earfcn-calculator.svg)](https://badge.fury.io/js/lte-earfcn-calculator)
@@ -16,28 +17,22 @@ This is LTE EARFCN Calculator. The main purpose is to convert EARFCN to Frequenc
 >LTE frequency band [36.101](http://www.3gpp.org/DynaReport/36101-CRs.htm) (Rel 14 Jun 2017)
 
 ## Example
-
-### Web
->[Demo : Sandbox](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/example)
-
-<iframe src="https://codesandbox.io/embed/github/qvil/lte-earfcn-calculator/tree/master/example" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
-
-**Execute**
-```sh
-cd example
-npm install
-npm start
-```
-
 [Install](#Install) before execute code.
 
 >Included example code in thie library. Check this file. `/src/example.js` If you want to execute example try this `node src/example.js`
 
 ```js
-const LteEarfcnCalculator = require('lte-earfcn-calculator');
+const LteEarfcnCalculator = require('./index');
 
 console.log(LteEarfcnCalculator.earfcnToFreq(0)); // 2110.0
+console.log(LteEarfcnCalculator.earfcnToFreq(2750)); // 2620.0
+console.log(LteEarfcnCalculator.earfcnToFreq(55240)); // 3550.0
+console.log(LteEarfcnCalculator.earfcnToFreq(22150)); // 1710.0
+console.log(LteEarfcnCalculator.earfcnToFreq(36000)); // 1900.0
 ```
+
+## Demo
+- [Web](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/demo/web)
 
 ## Install
 ```
