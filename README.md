@@ -1,5 +1,3 @@
-**Note**
-
 Check out! Added [Example Demo Web](#web)!
 >`Frequency to EARFCN` Function is coming!
 
@@ -21,6 +19,8 @@ This is LTE EARFCN Calculator. The main purpose is to convert EARFCN to Frequenc
 
 ### Web
 >[Demo : Sandbox](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/example)
+
+<iframe src="https://codesandbox.io/embed/github/qvil/lte-earfcn-calculator/tree/master/example" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
 **Execute**
 ```sh

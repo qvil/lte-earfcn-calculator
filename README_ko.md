@@ -1,5 +1,3 @@
-**노트**
-
 확인해보세요! [Example Demo Web](#웹)이 추가되었습니다!
 >`Frequency to EARFCN` 기능이 추가될 예정입니다!
 
