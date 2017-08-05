@@ -5,6 +5,7 @@ const checkBandByEarfcn = require('./checkBandByEarfcn');
 // earfcn.match(regex) ? earfcn.substr(0, earfcn.length - 2) : earfcn;
 
 module.exports = {
+    lteBandTable: table,
     freqToEarfcnByBand: (inputBand, freq) => {
         for (let key in table) {
             if (table.hasOwnProperty(key)) {
