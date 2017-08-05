@@ -37,7 +37,8 @@ describe('Check EARFCN', () => {
                     let element = table[key];
                     for (var freq = element["FDL_Low"]; freq < element["FDL_High"]; freq = freq + 0.1) {
                         earfcn = (freq - element.FDL_Low) * 10 + element.NDL_Min;
-                        assert.equal(earfcn.toFixed(1), LTE.freqToEarfcn(element.band, freq));
+                        earfcn = earfcn > element.NDL_Max ? earfcn - 1 : earfcn;
+                        assert.equal(earfcn.toFixed(1), LTE.freqToEarfcnByBand(element.band, freq));
                     }
                 }
             }
@@ -48,7 +49,8 @@ describe('Check EARFCN', () => {
                     let element = table[key];
                     for (var freq = element["FUL_Low"]; freq < element["FUL_High"]; freq = freq + 0.1) {
                         earfcn = (freq - element.FUL_Low) * 10 + element.NUL_Min;
-                        assert.equal(earfcn.toFixed(1), LTE.freqToEarfcn(element.band, freq));
+                        earfcn = earfcn > element.NUL_Max ? earfcn - 1 : earfcn;
+                        assert.equal(earfcn.toFixed(1), LTE.freqToEarfcnByBand(element.band, freq));
                     }
                 }
             }
