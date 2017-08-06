@@ -6,6 +6,13 @@ const checkBandByEarfcn = require('./checkBandByEarfcn');
 
 module.exports = {
     lteBandTable: table,
+    /**
+     * Calculate the frequeny using earfcn and band.
+     * @author Taesu Hyeon
+     * @param {number} inputBand LTE Band.
+     * @param {number} freq LTE Frequency.
+     * @returns {number}
+     */
     freqToEarfcnByBand: (inputBand, freq) => {
         for (let key in table) {
             if (table.hasOwnProperty(key)) {
@@ -30,6 +37,12 @@ module.exports = {
             }
         }
     },
+    /**
+     * Calculate the frequency using earfcn.
+     * @author Taesu Hyeon
+     * @param {number} earfcn LTE earfcn value.
+     * @returns {number}
+     */
     earfcnToFreq: (earfcn) => {
         for (let key in table) {
             if (table.hasOwnProperty(key)) {
