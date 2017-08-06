@@ -22,18 +22,10 @@ LTE EARFCN 계산기 입니다. EARFCN을 주파수로 변환하거나 반대로
 >라이브러리에 예제 코드가 포함되어 있습니다. 이 파일을 확인하십시오. `/src/example.js` 예제를 실행하려면`node src/example.js`를 시도해보십시오.
 
 ```js
-const LteEarfcnCalculator = require('./index');
+import LTE from 'lte-earfcn-calculator';
 
-console.log('============ earfcnToFreq ============');
-console.log(LteEarfcnCalculator.earfcnToFreq(0)); // 2110.0
-console.log(LteEarfcnCalculator.earfcnToFreq(2750)); // 2620.0
-console.log(LteEarfcnCalculator.earfcnToFreq(55240)); // 3550.0
-console.log(LteEarfcnCalculator.earfcnToFreq(22150)); // 1710.0
-console.log(LteEarfcnCalculator.earfcnToFreq(36000)); // 1900.0
-console.log('============ freqToEarfcnByBand ============');
-console.log(LteEarfcnCalculator.freqToEarfcnByBand(1, 2170)); // 599.0
-console.log(LteEarfcnCalculator.freqToEarfcnByBand(1, 1980)); // 18599.0
-console.log(LteEarfcnCalculator.freqToEarfcnByBand(48, 3700)); // 56739.0
+console.log(LTE.earfcnToFreq(0)); // 2110.0
+console.log(LTE.freqToEarfcnByBand(1, 2110)); // 0.0
 ```
 
 ## 데모
