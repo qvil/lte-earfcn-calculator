@@ -19,7 +19,7 @@ This is LTE EARFCN Calculator. The main purpose is to convert EARFCN to Frequenc
 ## Example
 [Install](#Install) before execute code.
 
->Included example code in thie library. Check this file. `/src/example.js` If you want to execute example try this `node src/example.js`
+>Included example code in this library. Check this file. `/src/example.js` If you want to execute example try this `node src/example.js`
 
 ```js
 import LTE from 'lte-earfcn-calculator';
