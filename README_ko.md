@@ -1,6 +1,5 @@
 EARFCN 과 Frequency 변환을 위한 자바스크립트 라이브러리 입니다.
->- `Frequency to EARFCN` 기능이 추가되었습니다!
->- 확인해보세요! [데모](#데모)가 추가되었습니다!
+>- 확인해보세요! [데모](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/demo/web)가 더욱 편리하게 수정되었습니다!
 
 # [LTE EARFCN Calculator](https://github.com/qvil/lte-earfcn-calculator)
 [![npm version](https://badge.fury.io/js/lte-earfcn-calculator.svg)](https://badge.fury.io/js/lte-earfcn-calculator)
@@ -54,4 +53,4 @@ npm test
 - [jsonfile](https://www.npmjs.com/package/jsonfile) - 테스트를 위한 json file 생성을 위해 사용됩니다.
 
 ## [라이센스](https://github.com/qvil/lte-earfcn-calculator/blob/master/LICENSE)
-MIT
+[MIT](https://github.com/qvil/lte-earfcn-calculator/blob/master/LICENSE)

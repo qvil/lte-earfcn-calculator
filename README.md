@@ -1,6 +1,5 @@
 Javascript library that for convert EARFCN and Frequency. 
->- `Frequency to EARFCN` has been released!
->- Check out! Added [Demo](#demo)!
+>- Check out! Modified [Demo](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/demo/web) more conveniently!
 
 # [LTE EARFCN Calculator](https://github.com/qvil/lte-earfcn-calculator)
 [![npm version](https://badge.fury.io/js/lte-earfcn-calculator.svg)](https://badge.fury.io/js/lte-earfcn-calculator)
@@ -54,4 +53,4 @@ Now you can dive into the project! Welcome anything, such as add frequencies, ad
 - [jsonfile](https://www.npmjs.com/package/jsonfile) - To generate test json file.
 
 ## [LICENSE](https://github.com/qvil/lte-earfcn-calculator/blob/master/LICENSE)
-MIT
+[MIT](https://github.com/qvil/lte-earfcn-calculator/blob/master/LICENSE)
