@@ -1,6 +1,6 @@
 {
   "name": "lte-earfcn-calculator",
-  "version": "0.1.63",
+  "version": "0.7.0",
   "description": "",
   "main": "index.js",
   "scripts": {
