@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "dev": "cp ../../src/index.js ./src/lte-earfcn-calculator.js| node ./src/index.dev.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

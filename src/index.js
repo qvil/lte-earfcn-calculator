@@ -1,3 +1,9 @@
+/**
+ * @description Calculator for LTE EARFCN and Frequency.
+ * @example LTE.earfcnToFreq(0) // 2110.0
+ * @author Taesu Hyeon
+ * @license MIT
+ */
 const table = require('../lteBandTable.json');
 const checkBandByEarfcn = require('./checkBandByEarfcn');
 // TODO: Do you want to slice if the end of value ".0"? Do not?
@@ -8,17 +14,19 @@ module.exports = {
     lteBandTable: table,
     /**
      * Calculate the frequeny using earfcn and band.
-     * @author Taesu Hyeon
      * @param {number} inputBand LTE Band.
      * @param {number} freq LTE Frequency.
      * @returns {number}
      */
     freqToEarfcnByBand: (inputBand, freq) => {
+        let = inputBand = parseInt(inputBand, 10);
+        let = freq = parseInt(freq, 10);
+
         for (let key in table) {
             if (table.hasOwnProperty(key)) {
                 let element = table[key];
                 let earfcn;
-                if (inputBand == element.band) {
+                if (inputBand === element.band) {
                     if (freq >= element.FDL_Low && freq <= element.FDL_High) {
                         earfcn = (freq - element.FDL_Low) * 10 + element.NDL_Min;
                         earfcn = earfcn > element.NDL_Max ? earfcn - 1 : earfcn;
@@ -28,7 +36,7 @@ module.exports = {
                         earfcn = earfcn > element.NUL_Max ? earfcn - 1 : earfcn;
                     }
                     else {
-                        console.error('[Error] Wrong frequency value.');
+                        // console.error('[Error] Wrong frequency value.');
                         return false;
                     }
 
@@ -39,11 +47,12 @@ module.exports = {
     },
     /**
      * Calculate the frequency using earfcn.
-     * @author Taesu Hyeon
      * @param {number} earfcn LTE earfcn value.
      * @returns {number}
      */
     earfcnToFreq: (earfcn) => {
+        let = earfcn = parseInt(earfcn, 10);
+
         for (let key in table) {
             if (table.hasOwnProperty(key)) {
                 let element = table[key];
@@ -83,7 +92,7 @@ module.exports = {
             }
         }
 
-        console.error('[Error] Wrong earfcn value.');
+        // console.error('[Error] Wrong earfcn value.');
         return false;
     },
 };
