@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import LTE from 'lte-earfcn-calculator';
 
+const styleSheet = {
+  input: {
+    width: '100%',
+  },
+};
+
 class App extends Component {
   state = {
     earfcn: 0,
@@ -8,49 +14,39 @@ class App extends Component {
     freq: 0,
   };
 
-  handleChangeFreq = (event) => {
-    this.setState({ earfcn: event.target.value });
-  };
-
-  handleChangeBand = (event) => {
-    this.setState({ band: event.target.value });
-  };
-
-  handleChangeEarfcn = (event) => {
-    this.setState({ freq: event.target.value });
-    console.log(this.state);
+  handleChangeValue = name => event => {
+    this.setState({ [name]: event.target.value });
   };
 
   render() {
     console.log(this.state);
     return (
       <div>
-        <h2>EARFCN to Frequency</h2>
-        Input EARFCN :
-        <input
-          placeholder="Input EARFCN. Default : 0"
-          onChange={this.handleChangeFreq}
-        />
-        <br />
-        Output Frequency : {LTE.earfcnToFreq(this.state.earfcn)} MHz
-        <br />
-        <hr />
-        <h2>Frequency to EARFCN</h2>
-        Band :
-        <select onChange={this.handleChangeBand}>
+        <h2>Band</h2>
+        <select onChange={this.handleChangeValue("band")}>
           {
-            LTE.lteBandTable.map((value) => (
-              <option value={value.band}>{value.band}</option>
+            LTE.lteBandTable.map(value => (
+              <option key={value.band} value={value.band}>{value.band}</option>
             ))
           }
         </select>
-        <br />
-        Frequency :
+        <h2>EARFCN to Frequency</h2>
+        EARFCN Range :
         <input
-          placeholder="Input Frequency. Default : 0"
-          onChange={this.handleChangeEarfcn}
+          type="number"
+          style={styleSheet.input}
+          placeholder="Input EARFCN."
+          onChange={this.handleChangeValue("earfcn")}
         />
-        <br />
+        Output Frequency : {LTE.earfcnToFreq(this.state.earfcn)} MHz
+        <h2>Frequency to EARFCN</h2>
+        Frequency Range :
+        <input
+          type="number"
+          style={styleSheet.input}
+          placeholder="Input Frequency."
+          onChange={this.handleChangeValue("freq")}
+        />
         Output EARFCN : {LTE.freqToEarfcnByBand(this.state.band, this.state.freq)}
       </div >
     );
