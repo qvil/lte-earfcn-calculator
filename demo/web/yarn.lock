@@ -3884,9 +3884,9 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-lte-earfcn-calculator@^0.1.5:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/lte-earfcn-calculator/-/lte-earfcn-calculator-0.1.6.tgz#da1979b515169f2b87997f3e7bc9133a1a619c34"
+lte-earfcn-calculator@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/lte-earfcn-calculator/-/lte-earfcn-calculator-0.2.0.tgz#5bb73845c3f9096408158b02ede4cff98eb7b4a6"
   dependencies:
     babel-core "^6.25.0"
     babel-loader "^7.1.1"
