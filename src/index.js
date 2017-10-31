@@ -1,3 +1,8 @@
+/**
+ * @description LTE EARFCN Calculator 
+ * @author Taesu Hyeon
+ * @license MIT
+ */
 const table = require('../lteBandTable.json');
 const checkBandByEarfcn = require('./checkBandByEarfcn');
 // TODO: Do you want to slice if the end of value ".0"? Do not?
@@ -8,7 +13,6 @@ module.exports = {
     lteBandTable: table,
     /**
      * Calculate the frequeny using earfcn and band.
-     * @author Taesu Hyeon
      * @param {number} inputBand LTE Band.
      * @param {number} freq LTE Frequency.
      * @returns {number}
@@ -39,7 +43,6 @@ module.exports = {
     },
     /**
      * Calculate the frequency using earfcn.
-     * @author Taesu Hyeon
      * @param {number} earfcn LTE earfcn value.
      * @returns {number}
      */
