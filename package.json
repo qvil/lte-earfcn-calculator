@@ -1,6 +1,6 @@
 {
   "name": "lte-earfcn-calculator",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "",
   "main": "./distribution/index.js",
   "scripts": {
@@ -8,8 +8,7 @@
     "test": "mocha",
     "build": "babel src --out-dir distribution",
     "transpile": "babel src --out-file build/index.js",
-    "cover":
-      "node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/mocha $(find . -name '*.spec.js') --recursive -w"
+    "cover": "node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/mocha $(find . -name '*.spec.js') --recursive -w"
   },
   "repository": {
     "type": "git",
