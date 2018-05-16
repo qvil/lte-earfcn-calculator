@@ -1,7 +1,3 @@
-EARFCN 과 Frequency 변환을 위한 자바스크립트 라이브러리 입니다.
-
-> * 확인해보세요! [데모](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/demo/web)가 더욱 편리하게 수정되었습니다!
-
 # [LTE EARFCN Calculator](https://github.com/qvil/lte-earfcn-calculator)
 
 [![npm version](https://badge.fury.io/js/lte-earfcn-calculator.svg)](https://badge.fury.io/js/lte-earfcn-calculator)
@@ -9,9 +5,7 @@ EARFCN 과 Frequency 변환을 위한 자바스크립트 라이브러리 입니�
 [![Coverage Status](https://coveralls.io/repos/github/qvil/lte-earfcn-calculator/badge.svg?branch=master)](https://coveralls.io/github/qvil/lte-earfcn-calculator?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 개요
-
-LTE EARFCN 계산기 입니다. EARFCN 을 주파수로 변환하거나 반대로 주파수와 밴드를 이용하여 EARFCN 을 계산하는 기능이 주 목적입니다.
+EARFCN 과 Frequency 변환을 위한 자바스크립트 라이브러리 입니다. EARFCN 을 주파수로 변환하거나 반대로 주파수와 밴드를 이용하여 EARFCN 을 계산하는 기능이 주 목적입니다.
 
 > [영어](/README.md)
 
@@ -20,6 +14,12 @@ LTE EARFCN 계산기 입니다. EARFCN 을 주파수로 변환하거나 반대�
 1~48 (2017 년 7 월 18 일 기준)
 
 > LTE frequency band [36.101](http://www.3gpp.org/DynaReport/36101-CRs.htm) (Rel 14 Jun 2017)
+
+## 설치
+
+```
+npm install --save lte-earfcn-calculator
+```
 
 ## 예제
 
@@ -37,12 +37,6 @@ console.log(LTE.freqToEarfcnByBand(1, 2110)); // 0.0
 ## 데모
 
 * [웹](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/demo/web)
-
-## 설치
-
-```
-npm install --save lte-earfcn-calculator
-```
 
 ## 테스트
 

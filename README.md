@@ -9,15 +9,19 @@ Javascript library that for convert EARFCN and Frequency.
 [![Coverage Status](https://coveralls.io/repos/github/qvil/lte-earfcn-calculator/badge.svg?branch=master)](https://coveralls.io/github/qvil/lte-earfcn-calculator?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Overview
-
-This is LTE EARFCN Calculator. The main purpose is to convert EARFCN to Frequency or vice versa to calculate EARFCN using frequency and band.
+Javascript library for calculate EARFCN and Frequency. The main purpose is to convert EARFCN to Frequency or vice versa to calculate EARFCN using frequency and band.
 
 > [한국어](/README_ko.md)
 
-### Supported Band
+## Supported Band
 
 1~48 (Rel 18 July 2017)
+
+## Install
+
+```
+npm install --save lte-earfcn-calculator
+```
 
 > LTE frequency band [36.101](http://www.3gpp.org/DynaReport/36101-CRs.htm) (Rel 14 Jun 2017)
 
@@ -38,11 +42,6 @@ console.log(LTE.freqToEarfcnByBand(1, 2110)); // 0.0
 
 * [Web](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/demo/web)
 
-## Install
-
-```
-npm install --save lte-earfcn-calculator
-```
 
 ## Test
 
