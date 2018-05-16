@@ -1,8 +1,13 @@
 {
   "name": "lte-earfcn-calculator",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Javascript library for calculate EARFCN and Frequency.",
-  "keywords": ["LTE", "EARFCN", "Calculator", "Javascript"],
+  "keywords": [
+    "LTE",
+    "EARFCN",
+    "Calculator",
+    "Javascript"
+  ],
   "main": "./distribution/index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -10,8 +15,7 @@
     "build": "babel src --out-dir distribution",
     "prepublishOnly": "npm run build",
     "transpile": "babel src --out-file build/index.js",
-    "cover":
-      "node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/mocha $(find . -name '*.spec.js') --recursive -w"
+    "cover": "node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/mocha $(find . -name '*.spec.js') --recursive -w"
   },
   "repository": {
     "type": "git",
