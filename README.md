@@ -28,8 +28,12 @@ npm install --save lte-earfcn-calculator
 ```js
 import LTE from "lte-earfcn-calculator";
 
-console.log(LTE.earfcnToFreq(0)); // 2110.0
-console.log(LTE.freqToEarfcnByBand(1, 2110)); // 0.0
+let earfcn = 0;
+let band = 1;
+let frequency = 2110; // MHz
+
+console.log(LTE.earfcnToFreq(earfcn)); // 2110.0
+console.log(LTE.freqToEarfcnByBand(band, frequency)); // 0.0
 ```
 
 ## Demo
