@@ -55,7 +55,7 @@ typings/
 .yarn-integrity
 
 # NPM file
-.package-lock.json
+package-lock.json
 
 # dotenv environment variables file
 .env
