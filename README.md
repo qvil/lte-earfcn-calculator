@@ -60,7 +60,7 @@ Now you can dive into the project! Welcome anything, such as add frequencies, ad
 
 * [qvil(Taesu Hyeon)](https://github.com/qvil)
 * [yellowgg2(Youngki Kang)](https://github.com/yellowgg2)
-  * To be continued
+  * To be continued...
 
 ## Reference
 
