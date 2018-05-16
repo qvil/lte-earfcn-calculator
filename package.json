@@ -7,6 +7,7 @@
     "start": "node src/index.js",
     "test": "mocha",
     "build": "babel src --out-dir distribution",
+    "prepublish": "npm run build",
     "transpile": "babel src --out-file build/index.js",
     "cover":
       "node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/mocha $(find . -name '*.spec.js') --recursive -w"
