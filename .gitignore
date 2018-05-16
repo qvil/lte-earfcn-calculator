@@ -59,3 +59,6 @@ typings/
 
 # VSCode
 .vscode
+
+# dist directory
+distribution
