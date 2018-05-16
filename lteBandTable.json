@@ -570,5 +570,45 @@
     "FDL_High": 3700,
     "NDL_Min": 55240,
     "NDL_Max": 56739
+  },
+  {
+    "band": 49,
+    "name": "TD 3600r",
+    "bandType": "TDD",
+    "DLOnly": true,
+    "FDL_Low": 3550,
+    "FDL_High": 3700,
+    "NDL_Min": 56740,
+    "NDL_Max": 58239
+  },
+  {
+    "band": 50,
+    "name": "TD 1500+",
+    "bandType": "TDD",
+    "DLOnly": true,
+    "FDL_Low": 1432,
+    "FDL_High": 1517,
+    "NDL_Min": 58240,
+    "NDL_Max": 59089
+  },
+  {
+    "band": 51,
+    "name": "TD 1500-",
+    "bandType": "TDD",
+    "DLOnly": true,
+    "FDL_Low": 1427,
+    "FDL_High": 1432,
+    "NDL_Min": 59090,
+    "NDL_Max": 59139
+  },
+  {
+    "band": 52,
+    "name": "TD 3300",
+    "bandType": "TDD",
+    "DLOnly": true,
+    "FDL_Low": 3300,
+    "FDL_High": 3400,
+    "NDL_Min": 59140,
+    "NDL_Max": 60139
   }
 ]

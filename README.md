@@ -11,15 +11,13 @@ Javascript library for calculate EARFCN and Frequency. The main purpose is to co
 
 ## Supported Band
 
-1~48 (Rel 18 July 2017)
+1~52 (Rel 16 May 2018)
 
 ## Install
 
 ```
 npm install --save lte-earfcn-calculator
 ```
-
-> LTE frequency band [36.101](http://www.3gpp.org/DynaReport/36101-CRs.htm) (Rel 14 Jun 2017)
 
 ## Example
 
@@ -37,7 +35,6 @@ console.log(LTE.freqToEarfcnByBand(1, 2110)); // 0.0
 ## Demo
 
 * [Web](https://codesandbox.io/s/github/qvil/lte-earfcn-calculator/tree/master/demo/web)
-
 
 ## Test
 
