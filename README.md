@@ -5,6 +5,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/qvil/lte-earfcn-calculator/badge.svg?branch=master)](https://coveralls.io/github/qvil/lte-earfcn-calculator?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+> I'll renewal this project.
+
 Javascript library for calculate EARFCN and Frequency. The main purpose is to convert EARFCN to Frequency or vice versa to calculate EARFCN using frequency and band.
 
 > [한국어](/README_ko.md)

@@ -4,7 +4,6 @@
  * @license MIT
  */
 const table = require("../lteBandTable.json");
-const checkBandByEarfcn = require("./checkBandByEarfcn");
 // TODO: Do you want to slice if the end of value ".0"? Do not?
 // const regex = /.0$/;
 // earfcn.match(regex) ? earfcn.substr(0, earfcn.length - 2) : earfcn;

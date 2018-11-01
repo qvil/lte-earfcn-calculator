@@ -5,6 +5,8 @@
 [![Coverage Status](https://coveralls.io/repos/github/qvil/lte-earfcn-calculator/badge.svg?branch=master)](https://coveralls.io/github/qvil/lte-earfcn-calculator?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+> 리뉴얼 예정입니다.
+
 EARFCN 과 Frequency 변환을 위한 자바스크립트 라이브러리 입니다. EARFCN 을 주파수로 변환하거나 반대로 주파수와 밴드를 이용하여 EARFCN 을 계산하는 기능이 주 목적입니다.
 
 > [영어](/README.md)
