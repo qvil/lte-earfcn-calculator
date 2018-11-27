@@ -1,6 +1,6 @@
 {
   "name": "lte-earfcn-calculator",
-  "version": "0.2.93",
+  "version": "0.2.94",
   "description": "Javascript library for calculate EARFCN and Frequency.",
   "keywords": [
     "LTE",
