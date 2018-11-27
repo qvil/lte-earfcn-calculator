@@ -6,9 +6,10 @@
     "LTE",
     "EARFCN",
     "Calculator",
-    "Javascript"
+    "Javascript",
+    "JS"
   ],
-  "main": "./distribution/index.js",
+  "main": "./build/lte-earfcn-calculator.min.js",
   "scripts": {
     "start": "node src/index.js",
     "test": "mocha",
