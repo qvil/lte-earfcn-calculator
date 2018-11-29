@@ -74,6 +74,5 @@ const LTE = {
 
 if (window) {
   window.LTE = LTE;
-} else {
-  module.exports = LTE;
 }
+module.exports = LTE;
