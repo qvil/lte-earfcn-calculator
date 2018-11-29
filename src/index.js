@@ -8,7 +8,7 @@ const table = require("../lteBandTable.json");
 // const regex = /.0$/;
 // earfcn.match(regex) ? earfcn.substr(0, earfcn.length - 2) : earfcn;
 
-module.exports = {
+const LTE = {
   lteBandTable: table,
   /**
    * Calculate the frequeny using earfcn and band.
@@ -71,3 +71,8 @@ module.exports = {
     return false;
   }
 };
+
+module.exports = LTE;
+if (window) {
+  window.LTE = LTE;
+}
