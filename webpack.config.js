@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, "./build"),
     filename: "lte-earfcn-calculator.min.js",
     library: "",
-    // libraryTarget: "commonjs" // If remove this line then resolve : Uncaught ReferenceError: exports is not defined
+    libraryTarget: "commonjs" // If remove this line then resolve : Uncaught ReferenceError: exports is not defined
   },
   externals: [nodeExternals()],
   module: {
