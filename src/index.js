@@ -72,7 +72,6 @@ const LTE = {
   }
 };
 
-if (window) {
-  window.LTE = LTE;
-}
-module.exports = LTE;
+// module.exports = LTE;
+
+export default LTE;

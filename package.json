@@ -1,6 +1,6 @@
 {
   "name": "lte-earfcn-calculator",
-  "version": "0.2.98",
+  "version": "0.2.99",
   "description": "Javascript library for calculate EARFCN and Frequency.",
   "keywords": [
     "LTE",
@@ -11,7 +11,7 @@
   ],
   "main": "./build/lte-earfcn-calculator.min.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "babel-node src/index.js",
     "test": "mocha",
     "build": "./node_modules/.bin/webpack --mode=production",
     "prepublishOnly": "npm run build",
@@ -29,8 +29,9 @@
   },
   "homepage": "https://github.com/qvil/lte-earfcn-calculator#readme",
   "devDependencies": {
-    "@babel/core": "^7.1.6",
-    "@babel/preset-env": "^7.1.6",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
     "coveralls": "^2.13.1",
