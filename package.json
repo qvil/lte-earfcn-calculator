@@ -12,6 +12,7 @@
   "main": "./build/lte-earfcn-calculator.min.js",
   "scripts": {
     "start": "babel-node src/index.js",
+    "start-ts": "tsc",
     "test": "mocha",
     "build": "./node_modules/.bin/webpack --mode=production",
     "prepublishOnly": "npm run build",
@@ -38,6 +39,7 @@
     "istanbul": "^0.4.5",
     "mocha": "^3.4.2",
     "nodemon": "^1.11.0",
+    "typescript": "^3.5.3",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2",
     "webpack-node-externals": "^1.7.2"
