@@ -3,7 +3,7 @@
  * @author Taesu Hyeon
  * @license MIT
  */
-import table from "../lteBandTable.json";
+import * as table from "../lteBandTable.json";
 // TODO: Do you want to slice if the end of value ".0"? Do not?
 // const regex = /.0$/;
 // earfcn.match(regex) ? earfcn.substr(0, earfcn.length - 2) : earfcn;
