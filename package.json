@@ -30,9 +30,9 @@
   },
   "homepage": "https://github.com/qvil/lte-earfcn-calculator#readme",
   "devDependencies": {
-    "@babel/core": "^7.4.5",
+    "@babel/core": "^7.0.0-0",
     "@babel/node": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
     "coveralls": "^2.13.1",
@@ -45,6 +45,7 @@
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "jsonfile": "^3.0.1"
+    "jsonfile": "^3.0.1",
+    "parcel-bundler": "^1.12.3"
   }
 }
